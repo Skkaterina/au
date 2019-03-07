@@ -1,0 +1,83 @@
+html{
+	background-image: url('image.png');
+	font-family: Roboto Bold;
+}
+body{
+
+	
+	}
+
+.login-sec {
+	width: 60%;
+	height: 70%;
+	background: rgba(21, 83, 117, 0.9);
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 2% 4% 2% 28%;
+	box-shadow: 1px 1px 1px #000;
+	border-radius: 8px;
+}
+.avatar{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 18%;
+	left: 5%;
+	right: 5%;
+	bottom: 18%;
+}
+
+.login-sec h1 {
+		padding: 0 0 1%;
+		text-align: center;
+		font-size: 1px 1px 1px #000;
+		text-shadow: 1px 1px 1px #000;
+	}
+.login-sec p{
+		color: white;
+		font-weight:bold;
+	}
+.login-sec input[type="text"], input[type="password"]{
+		font-size: 1em;
+		width: 100%;
+		padding: 8px 0 8px 4px;
+		border: none;
+		outline: none;
+		box-shadow: 1px 1px 1px #000;
+		border-radius: 2px;
+	}
+.login-sec input[type="submit"] {
+	font-family: Roboto Bold;
+		font-size: 1.5em;
+		color:#fff;
+		width: 100%;
+		margin: 8px 2px;
+		padding: 8px 0 6px 4px;
+		border: none;
+		outline: none;
+		box-shadow: 1px 1px 1px #000;
+		background: rgb(0, 117,182);
+		border-radius: 4px;
+		}
+
+	.login-sec input[type="submit"]:hover{
+		background: rgb(53,167,110);
+}
+
+.login-sec a{
+	font-family: Roboto Bold;
+	color: #ddd;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+	align-self: center;
+}
+.login-sec a:hover {
+	color: #ED6E00;
+}
+.login-sec p{
+	padding: 2px;
+}

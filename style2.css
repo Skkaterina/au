@@ -1,0 +1,48 @@
+*
+{
+	margin: 0%;
+	padding: 0%;
+}
+body{
+	background-image: url('image.png');
+	}
+header {
+	height: 90px;
+	width: 100%;
+	background-image: url('fon.jpg');
+	position: fixed;
+	z-index: 5;
+}
+#text{
+	font-size: 450%;
+	font-family: "Roboto Black";
+	color: #fff;
+	letter-spacing: 6px;
+	position: absolute;
+	left: 22%;
+	}
+.menu {
+	width: 100%;
+	clear: both;
+	background-color: #fff;
+	position: absolute;
+	top: 90px;
+	position: fixed;
+	z-index: 5;
+	
+}
+.buttons {
+	border: 5px solid #fff;
+	height: 50px;
+	width: 14%;
+	font-size: 1em;
+	font-family: "Roboto Regular";
+	font-weight: bold;
+    background-image: url('fon.jpg');
+	color: #fff;
+} 
+.buttons:hover{
+	background: #D3D3D3;
+	color: #000;
+	border-bottom: 2px solid #000;
+}
